@@ -51,7 +51,7 @@ npm run firebase-init
 Choose `Hosting`, after this say which project you want to use or create a new one. <br />
 This will generate `firebase.json` and `.firebaserc`.
 
-If your make a new project you should visit the Google platform [https://console.firebase.google.com]https://console.firebase.google.com and create a new project. Run `npm run firebase-init` and choose the project you made.
+If your make a new project you should visit the Google platform [https://console.firebase.google.com](https://console.firebase.google.com) and create a new project. Run `npm run firebase-init` and choose the project you made.
 
 
 Deply your project to Firebase. (This can take a while)
