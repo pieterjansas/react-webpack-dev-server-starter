@@ -1,0 +1,78 @@
+// Basic
+$white:             #fff;
+$black:             #000;
+
+
+// Primary
+$primary:           #446CB3;
+$secondary:         #60AAD3;
+$third:             #00284E;
+$fourth:            #70B8FF;
+$fifth:             #F5D76E;
+
+// Buttons
+
+$buttons:           #DDE6EB;
+
+
+// Green
+$lightgreen:        #d9f2e6;
+$green:             #00b386;
+$darkgreen:         #0a765b;
+
+
+// Purple
+$lightpurple:      #dbe6ff;
+$purple:           #4a58a3;
+$darkpurple:       #2e3a7b;
+
+// Blue
+$lightblue:        #afd5f6;
+$blueLight:        #d7efff;
+$blue:             #318bec;
+$darkblue:         #142457;
+
+
+// 50 shades of grey
+$almostWhite:       #fafafa;
+$lightLightGrey:    #f2f2f2;
+$lightGrey:         #eeeeee;
+$greyLight:         #c0c0c0;
+$greyDark:          #9b9b9b;
+$lightDarkGrey:     #4a4a4a;
+$darkGrey:          #333333;
+
+// Alert
+$yellow:           #f4ce00;
+$orange:           #fc7700;
+$red:              #f21f0c;
+
+
+$twegos:            #00284E;
+$bsm:                #70B8FF;
+
+
+.color--fourth{
+  color: $fourth;
+}
+.color--primary{
+  color: $primary;
+}
+.color--white{
+  color: $white;
+}
+
+
+.background--twegos{
+  background: rgba($white, 1);
+}
+.background--bsm{
+  background: rgba($white, 1);
+}
+.background--almostwhite{
+  background: $lightLightGrey;
+}
+
+.border--right{
+  border: 1px solid rgba(#000000, 0.05);
+}

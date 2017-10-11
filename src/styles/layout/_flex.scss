@@ -1,0 +1,132 @@
+
+.flex {
+  display: block;
+  @include breakpoint('ml'){
+    display: flex;
+  }
+}
+
+.flex--big{
+  display: block;
+  @include breakpoint('xml'){
+    display: flex;
+  }
+}
+
+.flex--1{
+   flex: 1;
+}
+
+.flex--spacebetween {
+  justify-content: space-between;
+}
+
+.flex--spacearound{
+  justify-content: space-around;
+}
+
+.flex--justifycenter {
+  justify-content: center;
+}
+
+.flex--justifyend {
+  justify-content: flex-end;
+}
+
+.flex--alignstart {
+  align-items: flex-start;
+}
+
+.flex--aligncenter {
+  align-items: center;
+}
+
+.flex--alignend {
+  align-items: flex-end;
+}
+
+.flex--selfstart {
+  align-self: flex-start;
+}
+
+.flex--selfcenter {
+  align-self: center;
+}
+
+.flex--start {
+  align-items: flex-start;
+}
+
+.flex--end {
+  align-items: flex-end;
+}
+
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+.flex--nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex--direction-column {
+  flex-direction: column;
+}
+
+.flex--direction-columnreverse {
+  flex-direction: column-reverse;
+}
+
+.flex--grow {
+  flex-grow: 1;
+}
+
+.flex--notshrink {
+  flex-shrink: 0;
+}
+
+.flex--mobile{
+  display: flex
+}
+
+.flex__column__reverse--mobile{
+    flex-direction: column-reverse;
+  @include breakpoint('s'){
+    flex-direction: column;
+  }
+}
+
+
+@mixin theme($name, $primary) {
+  .#{$name}{
+      $width: (100% / $primary) ;
+      .flexwidth--1{
+          min-width: $width;
+          flex: 0 0 $width;
+      }
+
+      .flexwidth--05{
+        width: ((100% / $primary) / 1.5);
+        flex: 0 0 ((100% / $primary) / 1.5);
+      }
+  }
+}
+
+ @include theme(column__1, 1);
+ @include theme(column__2, 2);
+ @include theme(column__3, 3);
+ @include theme(column__4, 4);
+ @include theme(column__5, 5);
+ @include theme(column__6, 6);
+ @include theme(column__7, 7);
+ @include theme(column__8, 8);
+ @include theme(column__9, 9);
+ @include theme(column__10, 10);
+
+
+
+// .flexwidth--1{
+//   min-width: 15.3%;
+//   flex: 0 0 15.3%;
+// }
+

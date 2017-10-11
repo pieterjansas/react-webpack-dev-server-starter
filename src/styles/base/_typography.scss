@@ -1,0 +1,66 @@
+
+
+h1, h2, h3{
+  //font-size-weight: bold;
+}
+
+h1 {
+  @include font-size(28, 1);
+  font-weight: bold;
+}
+
+h2 {
+  @include font-size(18, 1);
+  color: $third;
+  font-weight: bold;
+}
+
+h3{
+  @include font-size(20, 1);
+  color: $secondary;
+}
+
+h4{
+  @include font-size(15, 1);
+  color: $white;
+  font-weight: 300;
+}
+
+p, li, *{
+  @include font-size(16, 1);
+}
+
+p{
+  color: $darkGrey;
+}
+
+small{
+  @include font-size(12, 1);
+  color: $lightGrey;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.font--bigger{
+  @include font-size(22.5, 1);
+}
+
+
+.align--right{
+  text-align: right;
+}
+.align--left{
+  text-align: left;
+}
+.align--center{
+  text-align: center;
+}
+
+.weight--600{
+  font-weight: 600;
+}
+.weight--400{
+  font-weight: 400;
+}

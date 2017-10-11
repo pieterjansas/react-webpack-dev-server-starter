@@ -1,0 +1,35 @@
+
+.button{
+  background: $white;
+  border-radius: 5px;
+  padding: 0.8em 2em;
+  @include font-size(20);
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+
+  &__group{
+    width: 100%;
+    text-align: center;
+  }
+
+  &:focus{
+    outline: 0;
+  }
+  &:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,.03);
+  }
+}
+
+.button--yellow{
+  background-color: $yellow;
+  color: $white;
+  padding: 0.2em 2em;
+  @include font-size(15);
+
+
+}
+.button--blue{
+  background-color: $white;
+  color: $third;
+}

@@ -1,0 +1,32 @@
+/* =========================
+FOOTER
+=========================*/
+
+footer {
+  background-color: $third;
+  padding: 5em 3em;
+
+  p{
+    color: $white;
+    margin-right: 10em;
+    padding-left: 1.5em;
+    line-height: 1.4em;
+  }
+}
+
+@media (max-width: 44em) {
+  footer p {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+
+footer p.margin-min {
+  margin-top: -1.4em;
+}
+
+@media (max-width: 44em) {
+  footer p.margin-min {
+    margin-top: 2em;
+  }
+}

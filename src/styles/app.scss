@@ -1,0 +1,26 @@
+
+/** ::RESET:: **/
+@import 'base/_reset.scss';
+
+/**   ::BASE::  **/
+@import 'utlis/mixins/_mixins.sass';
+@import 'base/_colors.scss';
+@import 'base/_base.scss';
+@import 'base/_fonts.scss';
+@import 'base/_typography.scss';
+
+
+/**  ::LAYOUT::  **/
+@import 'layout/_flex.scss';
+@import 'layout/_layout.scss';
+
+/**  ::MODULES::  **/
+@import 'modules/_buttons.scss';
+@import 'modules/_footer.scss';
+@import 'modules/_header.scss';
+@import 'modules/_input.scss';
+@import 'modules/_intro.scss';
+
+/**  ::PAGES::  **/
+
+
