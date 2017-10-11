@@ -5,7 +5,6 @@ import getFacts from './facts';
 
 
 getFacts().then(facts => {
-    console.log(facts);
     render(<App facts={facts} />, document.getElementById('root'));
 })
 
