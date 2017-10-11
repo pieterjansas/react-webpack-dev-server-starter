@@ -1,13 +1,14 @@
 {
   "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "dependencies": {
-    "firebase-admin": "~5.4.0",
-    "firebase-functions": "^0.7.0",
+  "version": "1.0.0",
+  "peerDependencies": {
     "isomorphic-fetch": "^2.2.1",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "express": "4.16.2"
   },
-  "private": true
+  "devdependencies": {
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0"
+  }
 }
