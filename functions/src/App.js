@@ -11,13 +11,16 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = require('react-dom');
 
+var _project = require('./components/project');
+
+var _project2 = _interopRequireDefault(_project);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App(props) {
   function handleClick(fact) {
     return function (e) {
       e.preventDefault();
-      console.log(fact);
     };
   }
   var items = props.facts.map(function (fact, i) {
@@ -27,7 +30,7 @@ function App(props) {
       _react2.default.createElement(
         'a',
         { href: '#', onClick: handleClick(fact) },
-        fact.text
+        _react2.default.createElement(_project2.default, { fact: fact })
       )
     );
   });

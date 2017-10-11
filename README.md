@@ -13,7 +13,7 @@ A Webpack Dev Server starter with a custom structure of Webpack for React togeth
 - Express
 - React
 
-## Installation
+## Installation without SSR(server side rendering)
 
 ```console
 npm i
@@ -21,6 +21,24 @@ npm start
 ```
 
 Localhost serving on: [http://localhost:8081](http://localhost:8081)
+
+## Installation with SSR(server side rendering)
+
+```console
+npm i
+npm run firebase-start
+```
+
+Localhost serving on: [http://localhost:5000](http://localhost:5000)
+
+## Deploy on Firebase hosting
+
+
+```console
+npm i
+npm run babel
+npm run firebase-start
+```
 
 
 ## Author

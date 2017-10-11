@@ -12,6 +12,7 @@
   "scripts": {
     "webpack": "node_modules/.bin/webpack-dev-server",
     "start": "webpack-dev-server --content-base public/ --inline --hot",
+    "firebase-start": "node_modules/.bin/firebase serve --only functions,hosting",
     "babel": "node_modules/.bin/babel src -d functions/src && node_modules/.bin/babel index.js -d functions"
   },
   "dependencies": {
