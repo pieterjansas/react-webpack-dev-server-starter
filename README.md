@@ -23,12 +23,8 @@ npm start
 Localhost serving on: [http://localhost:8081](http://localhost:8081)
 
 
-## License
+## Author
 
-Free for commerical use
-
-Author: Pieter-Jan Sas
-
+Pieter-Jan Sas
 Twitter: [http://twitter.com/pieterjansas](http://twitter.com/pieterjansas)
-
 Email: [mailto:pieter_jansas@hotmail.com](pieter_jansas@hotmail.com)
