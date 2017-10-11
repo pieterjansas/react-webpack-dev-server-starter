@@ -25,6 +25,6 @@ Localhost serving on: [http://localhost:8081](http://localhost:8081)
 
 ## Author
 
-Pieter-Jan Sas
-Twitter: [http://twitter.com/pieterjansas](http://twitter.com/pieterjansas)
+Pieter-Jan Sas<br />
+Twitter: [http://twitter.com/pieterjansas](http://twitter.com/pieterjansas)<br />
 Email: [mailto:pieter_jansas@hotmail.com](pieter_jansas@hotmail.com)
