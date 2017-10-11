@@ -11,7 +11,7 @@
   },
   "scripts": {
     "webpack": "node_modules/.bin/webpack-dev-server",
-    "start": "webpack-dev-server --content-base public/ --inline --hot",
+    "start": "node_modules/.bin/webpack-dev-server --content-base public/ --inline --hot",
     "firebase-start": "node_modules/.bin/firebase serve --only functions,hosting",
     "firebase-login": "node_modules/.bin/firebase login",
     "firebase-init": "node_modules/.bin/firebase init",

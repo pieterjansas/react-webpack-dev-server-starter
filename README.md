@@ -24,6 +24,7 @@ Localhost serving on: [http://localhost:8081](http://localhost:8081)
 
 ## Installation with SSR(server side rendering)
 
+Install node_modules and run start
 ```console
 npm i
 npm run firebase-start
@@ -33,7 +34,7 @@ Localhost serving on: [http://localhost:5000](http://localhost:5000)
 
 ## Deploy on Firebase hosting
 
-
+Install node_modules and run babel
 ```console
 npm i
 npm run babel
@@ -48,10 +49,10 @@ Run the init command to choose the hosting plan.
 ``` 
 npm run firebase-init
 ```
-Choose `Hosting`, after this say which project you want to use or create a new one. <br />
-This will generate `firebase.json` and `.firebaserc`.
+Choose `Hosting` and select which project you want to use or select `create a new one`. <br />
+This will generate the following files: `firebase.json` and `.firebaserc`.
 
-If your make a new project you should visit the Google platform [https://console.firebase.google.com](https://console.firebase.google.com) and create a new project. Run `npm run firebase-init` and choose the project you made.
+If you make a new project you should visit the Google platform [https://console.firebase.google.com](https://console.firebase.google.com) and create a new project. Run `npm run firebase-init` and choose the project you made.
 
 
 Deply your project to Firebase. (This can take a while)
